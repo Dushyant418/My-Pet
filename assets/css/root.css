@@ -1,0 +1,65 @@
+:root {
+    --font-size-sm: 11px;
+    --font-size-md: 12px;
+    --font-size-lg: 16px;
+    --font-size-xl: 22px;
+
+    --line-height-xsm: 13.31px;
+    --line-height-sm: 14.52px;
+    --line-height-md: 16px;
+    --line-height-lg: 19px;
+    --line-height-xl: 26.63px;
+
+}
+
+.font_size_sm {
+    font-size: var(--font-size-sm);
+}
+
+.font_size_md {
+    font-size: var(--font-size-md);
+}
+
+.font_size_lg {
+    font-size: var(--font-size-lg);
+}
+
+.font_size_xl {
+    font-size: var(--font-size-xl);
+}
+
+.line_height_xsm {
+    line-height: var(--line-height-xsm);
+}
+
+.line_height_sm {
+    line-height: var(--line-height-sm);
+}
+
+.line_height_md {
+    line-height: var(--line-height-md);
+}
+
+.line_height_lg {
+    line-height: var(--line-height-lg);
+}
+
+.line_height_xl {
+    line-height: var(--font-size-xl);
+}
+
+@media (max-width:576px) {
+    :root {
+        --font-size-sm: 11px;
+        --font-size-md: 11px;
+        --font-size-lg: 14px;
+        --font-size-xl: 22px;
+
+        --line-height-xsm: 13.31px;
+        --line-height-sm: 14.52px;
+        --line-height-md: 16px;
+        --line-height-lg: 19px;
+        --line-height-xl: 26.63px;
+
+    }
+}

@@ -1,0 +1,751 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Pet</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="shortcut icon" href="./assets/images/mypets.svg" type="image/x-icon">
+</head>
+
+<body>
+    <section class=" d-flex justify-content-center overflow-hi dden position-relative">
+        <div class="section_bg max_width_393 w-100 min-vh-100 px-2 px-md-3 ">
+            <div class="d-flex justify-content-between hero_padding">
+                <h2 class=" font_inter mb-0 fw-bold color_dgreen font_size_xl line_height_xl">Feed</h2>
+                <div class="wrapper bg_light_gray">
+                    <div
+                        class="dropdown d-flex align-items-center justify-content-between font_family_inter font_size_lg fw-normal line_height_lg">
+                        <svg class="z-3" width="11" height="11" viewBox="0 0 11 11" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <g clip-path="url(#clip0_135_4992)">
+                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                    d="M0.917694 0.819092H9.94503V9.24462H7.35393V10.1808H6.2673V9.24462H2.83914V10.1808H1.75252V9.24462H0.917694V0.819092Z"
+                                    fill="#052E16" />
+                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                    d="M0.920763 0H9.94809V0.858132H10.8667V9.28363H10.8653L8.15045 9.28371V10.9999H8.14904L5.43248 11V10.1419V9.28371H3.637V8.42556H5.43248H6.35193H6.35356V9.28371H6.35193V10.1419H7.23102V9.24462H8.14872V8.42556H9.9473L9.94809 0.858132L0.920763 0.858154V0ZM0.920763 10.1419V8.42556H1.84021V10.1419H2.71624V9.24462H3.63569V10.1419H3.63732V11H0.920763V10.1419ZM0 9.28363V0.858132H0.919451V9.28363H0Z"
+                                    fill="#052E16" />
+                                <path d="M3.57312 4.19328V6.76775H4.53436V4.19328H3.57312Z" fill="white" stroke="white"
+                                    stroke-width="0.0531915" />
+                                <path d="M8.08789 4.19328V6.76775H9.04913V4.19328H8.08789Z" fill="white" stroke="white"
+                                    stroke-width="0.0531915" />
+                            </g>
+                            <defs>
+                                <clipPath id="clip0_135_4992">
+                                    <rect width="11" height="11" fill="white" />
+                                </clipPath>
+                            </defs>
+                        </svg>
+
+                        <input type="text" placeholder="#36985" readonly
+                            class=" font_inter font_size_lg fw-normal line_height_lg " />
+                        <ul class="options p-0 mb-0">
+                            <li class="option font_inter font_size_lg fw-normal line_height_lg color_dgreen">#36986</li>
+                            <li class="option font_inter font_size_lg fw-normal line_height_lg color_dgreen">#36987</li>
+                            <li class="option font_inter font_size_lg fw-normal line_height_lg color_dgreen">#36988</li>
+                        </ul>
+                    </div>
+
+                </div>
+            </div>
+            <div class="tab_box pt-4">
+                <div class="tabs d-flex align-items-center justify-content-center gap-2">
+                    <h3
+                        class="tab-head font_inter fw-normal tab_head_1 font_size_lg line_height_md active d-flex align-items-center justify-content-center">
+                        All</h3>
+                    <h3
+                        class="tab-head font_inter fw-normal tab_head_1 font_size_lg line_height_md d-flex align-items-center justify-content-center">
+                        Leaderboard</h3>
+                </div>
+                <div class="tab-content">
+                    <div class="tabs-para active">
+                        <div class="w-100 overflow-y-scroll scroll_height hide_scrollbar">
+                            <div class="white_box p-2">
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <div class=" d-flex">
+                                        <img src="./assets/images/icon_1.svg" alt="icon_1">
+                                        <p
+                                            class="text-black fw-normal font_size_lg line_height_lg font_inter mb-0 ps-2 max_width_195 w-100">
+                                            16982
+                                            <span class="color_gray">attacked</span>
+                                            Retardio
+                                            <span class="color_gray">and</span>
+                                            <span class="color_green">won 159.82 points</span>
+                                        </p>
+                                    </div>
+                                    <p class=" mb-0 font_inter fw-normal font_size_md line_height_sm color_gray">13mn ago</p>
+                                </div>
+                                <div>
+
+                                </div>
+                            </div>
+                            <div class="white_box p-2 mt-1">
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <div class=" d-flex">
+                                        <img src="./assets/images/icon_2.svg" alt="icon_1">
+                                        <p
+                                            class="text-black fw-normal font_size_lg line_height_lg font_inter mb-0 ps-2 max_width_195 w-100">
+                                            16982
+                                            <span class="color_gray">attacked</span>
+                                            Retardio
+                                            <span class="color_gray">and</span>
+                                            <span class="color_red">won 159.82 points</span>
+                                        </p>
+                                    </div>
+                                    <p class=" mb-0 font_inter fw-normal font_size_md line_height_sm color_gray">13mn ago</p>
+                                </div>
+                                <div>
+
+                                </div>
+                            </div>
+                            <div class="white_box p-2 mt-1">
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <div class=" d-flex">
+                                        <img src="./assets/images/coin_icon.png" alt="icon_1">
+                                        <p
+                                            class="text-black fw-normal font_size_lg line_height_lg font_inter mb-0 ps-2 max_width_195 w-100">
+                                            16982
+                                            <span class="color_gray">attacked</span>
+                                            Retardio
+                                            <span class="color_gray">and</span>
+                                            <span class="color_red">won 159.82 points</span>
+                                        </p>
+                                    </div>
+                                    <p class=" mb-0 font_inter fw-normal font_size_md line_height_sm color_gray">13mn ago</p>
+                                </div>
+                                <div>
+
+                                </div>
+                            </div>
+                            <div class="white_box p-2 mt-1">
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <div class=" d-flex">
+                                        <img src="./assets/images/icon_2.svg" alt="icon_1">
+                                        <p
+                                            class="text-black fw-normal font_size_lg line_height_lg font_inter mb-0 ps-2 max_width_195 w-100">
+                                            16982
+                                            <span class="color_gray">attacked</span>
+                                            Retardio
+                                            <span class="color_gray">and</span>
+                                            <span class="color_red">won 159.82 points</span>
+                                        </p>
+                                    </div>
+                                    <p class=" mb-0 font_inter fw-normal font_size_md line_height_sm color_gray">13mn ago</p>
+                                </div>
+                                <div>
+
+                                </div>
+                            </div>
+                            <div class="white_box p-2 mt-1">
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <div class=" d-flex">
+                                        <img src="./assets/images/icon_1.svg" alt="icon_1">
+                                        <p
+                                            class="text-black fw-normal font_size_lg line_height_lg font_inter mb-0 ps-2 max_width_195 w-100">
+                                            16982
+                                            <span class="color_gray">attacked</span>
+                                            Retardio
+                                            <span class="color_gray">and</span>
+                                            <span class="color_green">won 159.82 points</span>
+                                        </p>
+                                    </div>
+                                    <p class=" mb-0 font_inter fw-normal font_size_md line_height_sm color_gray">13mn ago</p>
+                                </div>
+                                <div>
+
+                                </div>
+                            </div>
+                            <div class="white_box p-2 mt-1">
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <div class=" d-flex">
+                                        <img src="./assets/images/icon_2.svg" alt="icon_1">
+                                        <p
+                                            class="text-black fw-normal font_size_lg line_height_lg font_inter mb-0 ps-2 max_width_195 w-100">
+                                            16982
+                                            <span class="color_gray">attacked</span>
+                                            Retardio
+                                            <span class="color_gray">and</span>
+                                            <span class="color_red">won 159.82 points</span>
+                                        </p>
+                                    </div>
+                                    <p class=" mb-0 font_inter fw-normal font_size_md line_height_sm color_gray">13mn ago</p>
+                                </div>
+                                <div>
+
+                                </div>
+                            </div>
+                            <div class="white_box p-2 mt-1">
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <div class=" d-flex">
+                                        <img src="./assets/images/icon_1.svg" alt="icon_1">
+                                        <p
+                                            class="text-black fw-normal font_size_lg line_height_lg font_inter mb-0 ps-2 max_width_195 w-100">
+                                            16982
+                                            <span class="color_gray">attacked</span>
+                                            Retardio
+                                            <span class="color_gray">and</span>
+                                            <span class="color_green">won 159.82 points</span>
+                                        </p>
+                                    </div>
+                                    <p class=" mb-0 font_inter fw-normal font_size_md line_height_sm color_gray">13mn ago</p>
+                                </div>
+                                <div>
+
+                                </div>
+                            </div>
+                            <div class="white_box p-2 mt-1">
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <div class=" d-flex">
+                                        <img src="./assets/images/mashroom_icon.svg" alt="icon_1">
+                                        <p
+                                            class="text-black fw-normal font_size_lg line_height_lg font_inter mb-0 ps-2 max_width_195 w-100">
+                                            16982
+                                            <span class="color_gray">attacked</span>
+                                            Retardio
+                                            <span class="color_gray">and</span>
+                                            <span class="color_green">won 159.82 points</span>
+                                        </p>
+                                    </div>
+                                    <p class=" mb-0 font_inter fw-normal font_size_md line_height_sm color_gray">13mn ago</p>
+                                </div>
+                                <div>
+
+                                </div>
+                            </div>
+                            <div class="white_box p-2 mt-1">
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <div class=" d-flex">
+                                        <img src="./assets/images/icon_1.svg" alt="icon_1">
+                                        <p
+                                            class="text-black fw-normal font_size_lg line_height_lg font_inter mb-0 ps-2 max_width_195 w-100">
+                                            16982
+                                            <span class="color_gray">attacked</span>
+                                            Retardio
+                                            <span class="color_gray">and</span>
+                                            <span class="color_green">won 159.82 points</span>
+                                        </p>
+                                    </div>
+                                    <p class=" mb-0 font_inter fw-normal font_size_md line_height_sm color_gray">13mn ago</p>
+                                </div>
+                                <div>
+
+                                </div>
+                            </div>
+                            <div class="white_box p-2 mt-1">
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <div class=" d-flex">
+                                        <img src="./assets/images/icon_2.svg" alt="icon_1">
+                                        <p
+                                            class="text-black fw-normal font_size_lg line_height_lg font_inter mb-0 ps-2 max_width_195 w-100">
+                                            16982
+                                            <span class="color_gray">attacked</span>
+                                            Retardio
+                                            <span class="color_gray">and</span>
+                                            <span class="color_red">won 159.82 points</span>
+                                        </p>
+                                    </div>
+                                    <p class=" mb-0 font_inter fw-normal font_size_md line_height_sm color_gray">13mn ago</p>
+                                </div>
+                                <div>
+
+                                </div>
+                            </div>
+                            <div class="white_box p-2 mt-1">
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <div class=" d-flex">
+                                        <img src="./assets/images/icon_2.svg" alt="icon_1">
+                                        <p
+                                            class="text-black fw-normal font_size_lg line_height_lg font_inter mb-0 ps-2 max_width_195 w-100">
+                                            16982
+                                            <span class="color_gray">attacked</span>
+                                            Retardio
+                                            <span class="color_gray">and</span>
+                                            <span class="color_red">won 159.82 points</span>
+                                        </p>
+                                    </div>
+                                    <p class=" mb-0 font_inter fw-normal font_size_md line_height_sm color_gray">13mn ago</p>
+                                </div>
+                                <div>
+
+                                </div>
+                            </div>
+                            <div class="white_box p-2 mt-1">
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <div class=" d-flex">
+                                        <img src="./assets/images/icon_1.svg" alt="icon_1">
+                                        <p
+                                            class="text-black fw-normal font_size_lg line_height_lg font_inter mb-0 ps-2 max_width_195 w-100">
+                                            16982
+                                            <span class="color_gray">attacked</span>
+                                            Retardio
+                                            <span class="color_gray">and</span>
+                                            <span class="color_green">won 159.82 points</span>
+                                        </p>
+                                    </div>
+                                    <p class=" mb-0 font_inter fw-normal font_size_md line_height_sm color_gray">13mn ago</p>
+                                </div>
+                                <div>
+
+                                </div>
+                            </div>
+                            <div class="white_box p-2 mt-1">
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <div class=" d-flex">
+                                        <img src="./assets/images/coin_icon.png" alt="icon_1">
+                                        <p
+                                            class="text-black fw-normal font_size_lg line_height_lg font_inter mb-0 ps-2 max_width_195 w-100">
+                                            16982
+                                            <span class="color_gray">attacked</span>
+                                            Retardio
+                                            <span class="color_gray">and</span>
+                                            <span class="color_red">won 159.82 points</span>
+                                        </p>
+                                    </div>
+                                    <p class=" mb-0 font_inter fw-normal font_size_md line_height_sm color_gray">13mn ago</p>
+                                </div>
+                                <div>
+
+                                </div>
+                            </div>
+                            <div class="white_box p-2 mt-1">
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <div class=" d-flex">
+                                        <img src="./assets/images/icon_2.svg" alt="icon_1">
+                                        <p
+                                            class="text-black fw-normal font_size_lg line_height_lg font_inter mb-0 ps-2 max_width_195 w-100">
+                                            16982
+                                            <span class="color_gray">attacked</span>
+                                            Retardio
+                                            <span class="color_gray">and</span>
+                                            <span class="color_red">won 159.82 points</span>
+                                        </p>
+                                    </div>
+                                    <p class=" mb-0 font_inter fw-normal font_size_md line_height_sm color_gray">13mn ago</p>
+                                </div>
+                                <div>
+
+                                </div>
+                            </div>
+                            <div class="white_box p-2 mt-1">
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <div class=" d-flex">
+                                        <img src="./assets/images/icon_1.svg" alt="icon_1">
+                                        <p
+                                            class="text-black fw-normal font_size_lg line_height_lg font_inter mb-0 ps-2 max_width_195 w-100">
+                                            16982
+                                            <span class="color_gray">attacked</span>
+                                            Retardio
+                                            <span class="color_gray">and</span>
+                                            <span class="color_green">won 159.82 points</span>
+                                        </p>
+                                    </div>
+                                    <p class=" mb-0 font_inter fw-normal font_size_md line_height_sm color_gray">13mn ago</p>
+                                </div>
+                                <div>
+
+                                </div>
+                            </div>
+                            <div class="white_box p-2 mt-1">
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <div class=" d-flex">
+                                        <img src="./assets/images/icon_2.svg" alt="icon_1">
+                                        <p
+                                            class="text-black fw-normal font_size_lg line_height_lg font_inter mb-0 ps-2 max_width_195 w-100">
+                                            16982
+                                            <span class="color_gray">attacked</span>
+                                            Retardio
+                                            <span class="color_gray">and</span>
+                                            <span class="color_red">won 159.82 points</span>
+                                        </p>
+                                    </div>
+                                    <p class=" mb-0 font_inter fw-normal font_size_md line_height_sm color_gray">13mn ago</p>
+                                </div>
+                                <div>
+
+                                </div>
+                            </div>
+                            <div class="white_box p-2 mt-1">
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <div class=" d-flex">
+                                        <img src="./assets/images/icon_1.svg" alt="icon_1">
+                                        <p
+                                            class="text-black fw-normal font_size_lg line_height_lg font_inter mb-0 ps-2 max_width_195 w-100">
+                                            16982
+                                            <span class="color_gray">attacked</span>
+                                            Retardio
+                                            <span class="color_gray">and</span>
+                                            <span class="color_green">won 159.82 points</span>
+                                        </p>
+                                    </div>
+                                    <p class=" mb-0 font_inter fw-normal font_size_md line_height_sm color_gray">13mn ago</p>
+                                </div>
+                                <div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tabs-para">
+                        <div class="d-flex pt-1">
+                            <label class="switch">
+                                <input type="checkbox">
+                                <span class="slider round"></span>
+                            </label>
+                            <p class=" font_inter fw-normal font_size_md line_height_sm text color_dgreen mb-0 ps-2">
+                                Show Bonkable (32)</p>
+                        </div>
+                        <div class="d-flex pt-2 padding_bottom_25">
+                            <label class="switch">
+                                <input type="checkbox">
+                                <span class="slider round"></span>
+                            </label>
+                            <p class=" font_inter fw-normal font_size_md line_height_sm text color_dgreen mb-0 ps-2">My
+                                pets</p>
+                        </div>
+                        <div class="w-100 overflow-y-scroll scroll_height hide_scrollbar">
+                            <div class="white_box p-2">
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <div class=" d-flex">
+                                        <img src="./assets/images/icon_1.svg" alt="icon_1">
+                                        <p class="text-black fw-normal font_size_lg line_height_lg font_inter mb-0 ps-2 max_width_195 w-100">
+                                            16982
+                                            <span class="color_gray">attacked</span>
+                                            Retardio
+                                            <span class="color_gray">and</span>
+                                            <span class="color_green">won 159.82 points</span>
+                                        </p>
+                                    </div>
+                                    <p class=" mb-0 font_inter fw-normal font_size_md line_height_sm color_gray">13mn ago</p>
+                                </div>
+                                <div>
+                        
+                                </div>
+                            </div>
+                            <div class="white_box p-2 mt-1">
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <div class=" d-flex">
+                                        <img src="./assets/images/icon_2.svg" alt="icon_1">
+                                        <p class="text-black fw-normal font_size_lg line_height_lg font_inter mb-0 ps-2 max_width_195 w-100">
+                                            16982
+                                            <span class="color_gray">attacked</span>
+                                            Retardio
+                                            <span class="color_gray">and</span>
+                                            <span class="color_red">won 159.82 points</span>
+                                        </p>
+                                    </div>
+                                    <p class=" mb-0 font_inter fw-normal font_size_md line_height_sm color_gray">13mn ago</p>
+                                </div>
+                                <div>
+                        
+                                </div>
+                            </div>
+                            <div class="white_box p-2 mt-1">
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <div class=" d-flex">
+                                        <img src="./assets/images/coin_icon.png" alt="icon_1">
+                                        <p class="text-black fw-normal font_size_lg line_height_lg font_inter mb-0 ps-2 max_width_195 w-100">
+                                            16982
+                                            <span class="color_gray">attacked</span>
+                                            Retardio
+                                            <span class="color_gray">and</span>
+                                            <span class="color_red">won 159.82 points</span>
+                                        </p>
+                                    </div>
+                                    <p class=" mb-0 font_inter fw-normal font_size_md line_height_sm color_gray">13mn ago</p>
+                                </div>
+                                <div>
+                        
+                                </div>
+                            </div>
+                            <div class="white_box p-2 mt-1">
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <div class=" d-flex">
+                                        <img src="./assets/images/icon_2.svg" alt="icon_1">
+                                        <p class="text-black fw-normal font_size_lg line_height_lg font_inter mb-0 ps-2 max_width_195 w-100">
+                                            16982
+                                            <span class="color_gray">attacked</span>
+                                            Retardio
+                                            <span class="color_gray">and</span>
+                                            <span class="color_red">won 159.82 points</span>
+                                        </p>
+                                    </div>
+                                    <p class=" mb-0 font_inter fw-normal font_size_md line_height_sm color_gray">13mn ago</p>
+                                </div>
+                                <div>
+                        
+                                </div>
+                            </div>
+                            <div class="white_box p-2 mt-1">
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <div class=" d-flex">
+                                        <img src="./assets/images/icon_1.svg" alt="icon_1">
+                                        <p class="text-black fw-normal font_size_lg line_height_lg font_inter mb-0 ps-2 max_width_195 w-100">
+                                            16982
+                                            <span class="color_gray">attacked</span>
+                                            Retardio
+                                            <span class="color_gray">and</span>
+                                            <span class="color_green">won 159.82 points</span>
+                                        </p>
+                                    </div>
+                                    <p class=" mb-0 font_inter fw-normal font_size_md line_height_sm color_gray">13mn ago</p>
+                                </div>
+                                <div>
+                        
+                                </div>
+                            </div>
+                            <div class="white_box p-2 mt-1">
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <div class=" d-flex">
+                                        <img src="./assets/images/icon_2.svg" alt="icon_1">
+                                        <p class="text-black fw-normal font_size_lg line_height_lg font_inter mb-0 ps-2 max_width_195 w-100">
+                                            16982
+                                            <span class="color_gray">attacked</span>
+                                            Retardio
+                                            <span class="color_gray">and</span>
+                                            <span class="color_red">won 159.82 points</span>
+                                        </p>
+                                    </div>
+                                    <p class=" mb-0 font_inter fw-normal font_size_md line_height_sm color_gray">13mn ago</p>
+                                </div>
+                                <div>
+                        
+                                </div>
+                            </div>
+                            <div class="white_box p-2 mt-1">
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <div class=" d-flex">
+                                        <img src="./assets/images/icon_1.svg" alt="icon_1">
+                                        <p class="text-black fw-normal font_size_lg line_height_lg font_inter mb-0 ps-2 max_width_195 w-100">
+                                            16982
+                                            <span class="color_gray">attacked</span>
+                                            Retardio
+                                            <span class="color_gray">and</span>
+                                            <span class="color_green">won 159.82 points</span>
+                                        </p>
+                                    </div>
+                                    <p class=" mb-0 font_inter fw-normal font_size_md line_height_sm color_gray">13mn ago</p>
+                                </div>
+                                <div>
+                        
+                                </div>
+                            </div>
+                            <div class="white_box p-2 mt-1">
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <div class=" d-flex">
+                                        <img src="./assets/images/mashroom_icon.svg" alt="icon_1">
+                                        <p class="text-black fw-normal font_size_lg line_height_lg font_inter mb-0 ps-2 max_width_195 w-100">
+                                            16982
+                                            <span class="color_gray">attacked</span>
+                                            Retardio
+                                            <span class="color_gray">and</span>
+                                            <span class="color_green">won 159.82 points</span>
+                                        </p>
+                                    </div>
+                                    <p class=" mb-0 font_inter fw-normal font_size_md line_height_sm color_gray">13mn ago</p>
+                                </div>
+                                <div>
+                        
+                                </div>
+                            </div>
+                            <div class="white_box p-2 mt-1">
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <div class=" d-flex">
+                                        <img src="./assets/images/icon_1.svg" alt="icon_1">
+                                        <p class="text-black fw-normal font_size_lg line_height_lg font_inter mb-0 ps-2 max_width_195 w-100">
+                                            16982
+                                            <span class="color_gray">attacked</span>
+                                            Retardio
+                                            <span class="color_gray">and</span>
+                                            <span class="color_green">won 159.82 points</span>
+                                        </p>
+                                    </div>
+                                    <p class=" mb-0 font_inter fw-normal font_size_md line_height_sm color_gray">13mn ago</p>
+                                </div>
+                                <div>
+                        
+                                </div>
+                            </div>
+                            <div class="white_box p-2 mt-1">
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <div class=" d-flex">
+                                        <img src="./assets/images/icon_2.svg" alt="icon_1">
+                                        <p class="text-black fw-normal font_size_lg line_height_lg font_inter mb-0 ps-2 max_width_195 w-100">
+                                            16982
+                                            <span class="color_gray">attacked</span>
+                                            Retardio
+                                            <span class="color_gray">and</span>
+                                            <span class="color_red">won 159.82 points</span>
+                                        </p>
+                                    </div>
+                                    <p class=" mb-0 font_inter fw-normal font_size_md line_height_sm color_gray">13mn ago</p>
+                                </div>
+                                <div>
+                        
+                                </div>
+                            </div>
+                            <div class="white_box p-2 mt-1">
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <div class=" d-flex">
+                                        <img src="./assets/images/icon_2.svg" alt="icon_1">
+                                        <p class="text-black fw-normal font_size_lg line_height_lg font_inter mb-0 ps-2 max_width_195 w-100">
+                                            16982
+                                            <span class="color_gray">attacked</span>
+                                            Retardio
+                                            <span class="color_gray">and</span>
+                                            <span class="color_red">won 159.82 points</span>
+                                        </p>
+                                    </div>
+                                    <p class=" mb-0 font_inter fw-normal font_size_md line_height_sm color_gray">13mn ago</p>
+                                </div>
+                                <div>
+                        
+                                </div>
+                            </div>
+                            <div class="white_box p-2 mt-1">
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <div class=" d-flex">
+                                        <img src="./assets/images/icon_1.svg" alt="icon_1">
+                                        <p class="text-black fw-normal font_size_lg line_height_lg font_inter mb-0 ps-2 max_width_195 w-100">
+                                            16982
+                                            <span class="color_gray">attacked</span>
+                                            Retardio
+                                            <span class="color_gray">and</span>
+                                            <span class="color_green">won 159.82 points</span>
+                                        </p>
+                                    </div>
+                                    <p class=" mb-0 font_inter fw-normal font_size_md line_height_sm color_gray">13mn ago</p>
+                                </div>
+                                <div>
+                        
+                                </div>
+                            </div>
+                            <div class="white_box p-2 mt-1">
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <div class=" d-flex">
+                                        <img src="./assets/images/coin_icon.png" alt="icon_1">
+                                        <p class="text-black fw-normal font_size_lg line_height_lg font_inter mb-0 ps-2 max_width_195 w-100">
+                                            16982
+                                            <span class="color_gray">attacked</span>
+                                            Retardio
+                                            <span class="color_gray">and</span>
+                                            <span class="color_red">won 159.82 points</span>
+                                        </p>
+                                    </div>
+                                    <p class=" mb-0 font_inter fw-normal font_size_md line_height_sm color_gray">13mn ago</p>
+                                </div>
+                                <div>
+                        
+                                </div>
+                            </div>
+                            <div class="white_box p-2 mt-1">
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <div class=" d-flex">
+                                        <img src="./assets/images/icon_2.svg" alt="icon_1">
+                                        <p class="text-black fw-normal font_size_lg line_height_lg font_inter mb-0 ps-2 max_width_195 w-100">
+                                            16982
+                                            <span class="color_gray">attacked</span>
+                                            Retardio
+                                            <span class="color_gray">and</span>
+                                            <span class="color_red">won 159.82 points</span>
+                                        </p>
+                                    </div>
+                                    <p class=" mb-0 font_inter fw-normal font_size_md line_height_sm color_gray">13mn ago</p>
+                                </div>
+                                <div>
+                        
+                                </div>
+                            </div>
+                            <div class="white_box p-2 mt-1">
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <div class=" d-flex">
+                                        <img src="./assets/images/icon_1.svg" alt="icon_1">
+                                        <p class="text-black fw-normal font_size_lg line_height_lg font_inter mb-0 ps-2 max_width_195 w-100">
+                                            16982
+                                            <span class="color_gray">attacked</span>
+                                            Retardio
+                                            <span class="color_gray">and</span>
+                                            <span class="color_green">won 159.82 points</span>
+                                        </p>
+                                    </div>
+                                    <p class=" mb-0 font_inter fw-normal font_size_md line_height_sm color_gray">13mn ago</p>
+                                </div>
+                                <div>
+                        
+                                </div>
+                            </div>
+                            <div class="white_box p-2 mt-1">
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <div class=" d-flex">
+                                        <img src="./assets/images/icon_2.svg" alt="icon_1">
+                                        <p class="text-black fw-normal font_size_lg line_height_lg font_inter mb-0 ps-2 max_width_195 w-100">
+                                            16982
+                                            <span class="color_gray">attacked</span>
+                                            Retardio
+                                            <span class="color_gray">and</span>
+                                            <span class="color_red">won 159.82 points</span>
+                                        </p>
+                                    </div>
+                                    <p class=" mb-0 font_inter fw-normal font_size_md line_height_sm color_gray">13mn ago</p>
+                                </div>
+                                <div>
+                        
+                                </div>
+                            </div>
+                            <div class="white_box p-2 mt-1">
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <div class=" d-flex">
+                                        <img src="./assets/images/icon_1.svg" alt="icon_1">
+                                        <p class="text-black fw-normal font_size_lg line_height_lg font_inter mb-0 ps-2 max_width_195 w-100">
+                                            16982
+                                            <span class="color_gray">attacked</span>
+                                            Retardio
+                                            <span class="color_gray">and</span>
+                                            <span class="color_green">won 159.82 points</span>
+                                        </p>
+                                    </div>
+                                    <p class=" mb-0 font_inter fw-normal font_size_md line_height_sm color_gray">13mn ago</p>
+                                </div>
+                                <div>
+                        
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="green_box px-md-4 pt-2 pb-2 position-fixed  bottom-0 box_position d-flex mx-aut o">
+                <div class="small_box d-flex align-items-center justify-content-center flex-column cursor_pointer">
+                    <img src="./assets/images/Feed.svg" alt="feed">
+                    <p class="mb-0 font_inter fw-normal font_size_sm line_height_xsm color_dgreen">Feed</p>
+                </div>
+                <div class="small_box d-flex align-items-center justify-content-center flex-column cursor_pointer">
+                    <img src="./assets/images/explore.svg" alt="feed">
+                    <p class="mb-0 font_inter fw-normal font_size_sm line_height_xsm color_dgreen">Explore</p>
+                </div>
+                <div class="small_box d-flex align-items-center justify-content-center flex-column cursor_pointer">
+                    <img src="./assets/images/mypets.svg" alt="feed">
+                    <p class="mb-0 font_inter fw-normal font_size_sm line_height_xsm color_dgreen text-nowrap">My Pets</p>
+                </div>
+                <div class="small_box d-flex align-items-center justify-content-center flex-column cursor_pointer">
+                    <img src="./assets/images/swap.svg" alt="feed">
+                    <p class="mb-0 font_inter fw-normal font_size_sm line_height_xsm color_dgreen">Swap</p>
+                </div>
+                <div class="small_box d-flex align-items-center justify-content-center flex-column cursor_pointer">
+                    <img src="./assets/images/account.svg" alt="feed">
+                    <p class="mb-0 font_inter fw-normal font_size_sm line_height_xsm color_dgreen">Account</p>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+    <script src="./assets/js/app.js"></script>
+</body>
+
+</html>
