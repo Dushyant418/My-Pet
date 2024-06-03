@@ -13,6 +13,19 @@ tabs.forEach((tab, index) => {
     });
 });
 
+
+let tabs2 = document.querySelectorAll(".tabs2 .nav_tab");
+let tabContents2 = document.querySelectorAll(".tab-content2 .tabs-para2");
+tabs2.forEach((tab, index) => {
+    tab.addEventListener("click", () => {
+
+        tabs2.forEach((tab) => {
+            tab.classList.remove("active");
+        });
+        tabs2[index].classList.add("active");
+    });
+});
+
 const dropdown = document.querySelector('.dropdown');
 const input = document.querySelector('input');
 const listOfOptions = document.querySelectorAll('.option');
@@ -40,3 +53,31 @@ listOfOptions.forEach((option) => {
 });
 
 dropdown.addEventListener('click', toggleDropdown);
+
+
+
+
+myButton.addEventListener(
+    "click",
+    function () {
+        myPopup.classList.add("show");
+    }
+);
+closePopup.addEventListener(
+    "click",
+    function () {
+        myPopup.classList.remove(
+            "show"
+        );
+    }
+);
+window.addEventListener(
+    "click",
+    function (event) {
+        if (event.target == myPopup) {
+            myPopup.classList.remove(
+                "show"
+            );
+        }
+    }
+);
